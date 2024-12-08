@@ -1,0 +1,10 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+Dashboard/
+*.egg-info/
+
+# Streamlit cache
+.streamlit/

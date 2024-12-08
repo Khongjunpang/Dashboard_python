@@ -1,0 +1,4 @@
+Make Changes: Edit your code as needed.
+Stage Changes: Use git add . to stage your changes.
+Commit Changes: Use git commit -m "Your commit message" to commit your changes.
+Push Changes: Use git push to push your changes to the remote repository.
