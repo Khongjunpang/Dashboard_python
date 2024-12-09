@@ -1,28 +1,31 @@
-let sidebar = document.querySelector(".sidebar");
-let closeBtn = document.querySelector("#btn");
-/*let searchBtn = document.querySelector(".bx-search");*/
+document.addEventListener("DOMContentLoaded", function() {
+    let sidebar = document.querySelector(".sidebar");
+    let closeBtn = document.querySelector("#btn");
 
-closeBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("open");
-    menuBtnChange();
-})
+    if (closeBtn) {
+        closeBtn.addEventListener("click", () => {
+            if (sidebar) {
+                sidebar.classList.toggle("open");
+                menuBtnChange();
+            } else {
+                console.error("Sidebar element not found.");
+            }
+        });
 
-/*searchBtn.addEventListener("click", () => {
-    sidebar.classList.toggle("open");
-    menuBtnChange();
-})*/
+        function menuBtnChange() {
+            if (sidebar && closeBtn) {
+                if (sidebar.classList.contains("open")) {
+                    closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
+                    sidebar.style.width = '250px';
+                } else {
+                    closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
+                    sidebar.style.width = '78px';
+                }
+            }
+        }
 
-function menuBtnChange() {
-    if (sidebar.classList.contains("open")) {
-        closeBtn.classList.replace("bx-menu", "bx-menu-alt-right");
-        sidebar.style.width = '250px';
-        document.getElementById("mySidepanel").style.width = "250px";
+        menuBtnChange();
     } else {
-        closeBtn.classList.replace("bx-menu-alt-right", "bx-menu");
-        sidebar.style.width = '78px';
-        document.getElementById("mySidepanel").style.width = "0";
+        console.error("Element with ID 'btn' not found.");
     }
-}
-
-menuBtnChange();
-
+});

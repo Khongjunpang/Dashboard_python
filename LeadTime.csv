@@ -1,17 +1,17 @@
 Assemble lot,Facility,Lot,Group,Product,Current Operation,Quantity,Day At Current Operation,Cycle Time (Days)
-None ,aa,,a,New,0000,26,7.16,10
-w111,aa,,a,New,0001,22,7.04,16
-w113,aa,,a,New a,0002,99,3.44,20
-None ,aa,,a,New a,0003,21,1.82,11
-w111,aa,,a,New a,0004,12,3.10,18
-w113,aa,,a,New a,0005,89,7.90,6
-None ,aa,,a,New,0006,57,3.71,1
-w111,aa,,a,New,0007,48,0.29,11
-w113,aa,,a,New,0008,62,2.10,16
-None ,aa,,a,New,0009,78,2.40,6
-w111,aa,,a,New,0010,94,0.23,8
-w113,aa,,a,New,0011,4,8.19,10
-None ,aa,,a,New,0012,22,4.35,4
-w111,aa,,a,New,0013,68,4.69,16
-w113,aa,,a,New,0014,14,0.43,5
-None ,aa,,a,New,0015,10,4.95,10
+None ,aa,,a,New,0000,1,3.97,5
+w111,aa,,a,New,0001,1,6.96,18
+w113,aa,,a,New a,0002,85,4.54,10
+None ,aa,,a,New a,0003,57,1.56,3
+w111,aa,,a,New a,0004,31,5.93,4
+w113,aa,,a,New a,0005,28,4.86,15
+None ,aa,,a,New,0006,94,5.09,15
+w111,aa,,a,New,0007,79,4.36,1
+w113,aa,,a,New,0008,26,0.40,17
+None ,aa,,a,New,0009,62,2.20,14
+w111,aa,,a,New,0010,31,0.13,7
+w113,aa,,a,New,0011,76,2.85,17
+None ,aa,,a,New,0012,10,9.92,11
+w111,aa,,a,New,0013,18,1.14,2
+w113,aa,,a,New,0014,46,9.78,11
+None ,aa,,a,New,0015,84,9.17,16
